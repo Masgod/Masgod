@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="900" height="700" viewBox="0 0 900 700" fill="none"
+  font-family="ui-sans-serif, system-ui, 'Segoe UI', sans-serif">
+  <defs>
+    <radialGradient id="glow" cx="85%" cy="0%" r="55%">
+      <stop offset="0%" stop-color="#f5820a" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#f5820a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="topline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f5820a" stop-opacity="0"/>
+      <stop offset="48%" stop-color="#f5820a"/>
+      <stop offset="55%" stop-color="#ff9a2e"/>
+      <stop offset="100%" stop-color="#f5820a" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1c1c1e"/>
+      <stop offset="100%" stop-color="#151517"/>
+    </linearGradient>
+    <clipPath id="bClip"><rect x="20" y="12" width="860" height="212" rx="16"/></clipPath>
+    <clipPath id="c1"><rect x="46" y="0" width="48" height="68" rx="6"/></clipPath>
+    <clipPath id="c2"><rect x="470" y="0" width="48" height="68" rx="6"/></clipPath>
+  </defs>
+
+  <!-- ── BANNER ─────────────────────────────────────────────────────── -->
+  <g clip-path="url(#bClip)">
+    <rect x="20" y="12" width="860" height="212" fill="#121214"/>
+    <rect x="20" y="12" width="860" height="212" fill="url(#glow)"/>
+  </g>
+  <rect x="20" y="12" width="860" height="212" rx="16" fill="none" stroke="#26262b"/>
+  <rect x="36" y="11"  width="828" height="2"   fill="url(#topline)"/>
+
+  <rect x="50" y="38" width="50" height="50" rx="12" fill="url(#tile)" stroke="#f5820a" stroke-opacity="0.15"/>
+  <text x="75" y="71" font-family="ui-monospace,monospace" font-size="20" font-weight="700" fill="#f5820a" text-anchor="middle">&gt;_</text>
+
+  <text x="116" y="54"  font-family="ui-monospace,monospace" font-size="11" letter-spacing="3" font-weight="600" fill="#f5820a">SOFTWARE ENGINEERING · ONGOING</text>
+  <text x="115" y="84"  font-size="26" font-weight="700" fill="#f0f0f2" letter-spacing="-0.5">@Masgod</text>
+  <text x="50"  y="122" font-size="18" font-weight="500" fill="#f0f0f2">i do some stuff in my free time<tspan fill="#f5820a">_</tspan></text>
+  <text x="50"  y="146" font-size="13" fill="#9a9aa0">games enthusiast, sometimes writer. i build things until they work,</text>
+  <text x="50"  y="164" font-size="13" fill="#9a9aa0">then keep going — mostly systems and tooling, some web when the mood strikes.</text>
+
+  <!-- info badges — 20 px inside right edge -->
+  <g font-family="ui-monospace,monospace" font-size="11.5">
+    <rect x="50"  y="184" width="175" height="26" rx="6" fill="#0f0f11" stroke="#26262b"/>
+    <circle cx="66" cy="197" r="3.5" fill="#3fb950"/>
+    <text x="77" y="201" fill="#b8b8be">available for collab</text>
+
+    <rect x="237" y="184" width="80"  height="26" rx="6" fill="#0f0f11" stroke="#26262b"/>
+    <text x="251" y="201" fill="#b8b8be">&#9711; UTC&#8722;3</text>
+
+    <rect x="329" y="184" width="165" height="26" rx="6" fill="#0f0f11" stroke="#26262b"/>
+    <text x="343" y="201" fill="#b8b8be">&#10000; writes occasionally</text>
+  </g>
+
+  <!-- ── STACK ──────────────────────────────────────────────────────── -->
+  <rect x="20" y="242" width="860" height="195" rx="14" fill="#121214" stroke="#26262b"/>
+  <text x="46" y="274" font-family="ui-monospace,monospace" font-size="11" letter-spacing="2.5" font-weight="600" fill="#f5820a">STACK</text>
+  
+  <!-- row 1: core langs -->
+  <g transform="translate(20,284)">
+  <g transform="translate(20,0)">
+    <rect width="76" height="74" rx="10" fill="#16161a" stroke="#25252b"/>
+    <svg x="15" y="9" width="46" height="40" viewBox="0 0 24 24" fill="#F7DF1E">
+      <path d="M3 3h18v18H3V3zm9.71 14.29c.18.18.44.3.71.3.57 0 1-.44 1-1v-5h-2v4.59l-1.29-1.3-1.42 1.42L12.71 17.29zm-3.7-2.29c.18.37.41.73.71 1.04C9.93 16.75 11 17 12 17l.01-.01V15c-.38 0-.72-.07-1.01-.16-.15-.73-.73-1.3-1.45-1.38L9.54 13c0 .69.19 1.38.47 2z"/>
+    </svg>
+    <text x="38" y="66" text-anchor="middle" font-family="ui-monospace,monospace" font-size="10" fill="#a0a0a8">JavaScript</text>
+  </g>
+
+  <g transform="translate(102,0)">
+    <rect width="76" height="74" rx="10" fill="#16161a" stroke="#25252b"/>
+    <svg x="15" y="9" width="46" height="40" viewBox="0 0 24 24" fill="#3776AB">
+      <path d="M12 0C5.37 0 5.76 2.78 5.76 2.78L5.77 5.63h6.35v.85H3.65S0 6.1 0 12.06c0 5.96 3.3 5.75 3.3 5.75h1.97v-2.77s-.11-3.3 3.24-3.3h5.58s3.13.05 3.13-3.03V3.04S17.77 0 12 0zm-3.41 1.75c.56 0 1.02.46 1.02 1.02 0 .56-.45 1.02-1.02 1.02-.56 0-1.01-.46-1.01-1.02 0-.56.45-1.02 1.01-1.02zM12 24c6.63 0 6.24-2.78 6.24-2.78l-.01-2.85h-6.35v-.85h8.47S24 17.9 24 11.94c0-5.96-3.3-5.75-3.3-5.75h-1.97v2.77s.11 3.3-3.24 3.3H9.91s-3.13-.05-3.13 3.03v5.67S6.23 24 12 24zm3.41-1.75c-.56 0-1.02-.46-1.02-1.02 0-.56.45-1.02 1.02-1.02.56 0 1.01.46 1.01 1.02 0 .56-.45 1.02-1.01 1.02z"/>
+    </svg>
+    <text x="38" y="66" text-anchor="middle" font-family="ui-monospace,monospace" font-size="10" fill="#a0a0a8">Python</text>
+  </g>
+
+  <g transform="translate(184,0)">
+    <rect width="76" height="74" rx="10" fill="#16161a" stroke="#25252b"/>
+    <svg x="15" y="9" width="46" height="40" viewBox="0 0 24 24" fill="#ED8B00">
+      <path d="M8.85 18.56s-.92.53.65.71c1.9.22 2.87.19 4.97-.21 0 0 .55.35 1.32.65-4.7 2.01-10.63-.12-6.94-1.15zM8.28 15.93s-1.03.76.54.92c2.03.21 3.64.23 6.41-.31 0 0 .38.39.99.6-5.68 1.66-12.01.13-7.94-1.21zM13.12 11.48c1.16 1.33-.3 2.53-.3 2.53s2.94-1.52 1.59-3.42c-1.26-1.77-2.23-2.65 3.01-5.69 0-.001-8.22 2.05-4.3 6.58zM19.33 20.5s.68.56-.75.99c-2.71.82-11.29 1.07-13.67.03-.86-.37.75-.89 1.25-1 .53-.11.83-.09.83-.09-.95-.67-6.16 1.32-2.64 1.89 9.58 1.55 17.46-.7 14.98-1.82zM9.29 13.21s-4.36 1.04-1.54 1.41c1.19.16 3.56.12 5.77-.06 1.81-.15 3.62-.48 3.62-.48s-.64.27-1.1.59c-4.43 1.16-12.99.62-10.52-.57 2.08-1 3.78-.89 3.78-.89z"/>
+    </svg>
+    <text x="38" y="66" text-anchor="middle" font-family="ui-monospace,monospace" font-size="10" fill="#a0a0a8">Java</text>
+  </g>
+
+  <g transform="translate(266,0)">
+    <rect width="76" height="74" rx="10" fill="#16161a" stroke="#25252b"/>
+    <svg x="15" y="9" width="46" height="40" viewBox="0 0 24 24" fill="#A8B9CC">
+      <path d="M16.6 7.35c-.69.99-1.05 2.16-1.05 3.41 0 1.31.39 2.54 1.12 3.55l-.17.15c-.68-.77-1.51-1.47-2.45-2.1C13.02 11.7 11.6 11.2 10 11.2c-1.63 0-3.1.52-4.16 1.27v-.05c0-.11.01-.22.02-.33C6.52 9.95 8.03 8.8 10 8.8c1.6 0 3.03-.5 4.12-1.23l.03-.02c.94-.63 1.76-1.33 2.45-2.1zM10 4a8 8 0 100 16A8 8 0 0010 4zm0 11.2c-1.78 0-3.2-1.43-3.2-3.2S8.22 8.8 10 8.8s3.2 1.43 3.2 3.2-1.43 3.2-3.2 3.2z"/>
+    </svg>
+    <text x="38" y="66" text-anchor="middle" font-family="ui-monospace,monospace" font-size="10" fill="#a0a0a8">C</text>
+  </g>
+
+  <g transform="translate(348,0)">
+    <rect width="76" height="74" rx="10" fill="#16161a" stroke="#25252b"/>
+    <svg x="15" y="9" width="46" height="40" viewBox="0 0 24 24" fill="#9B4F96">
+      <path d="M11.5 0C5.15 0 0 5.15 0 11.5S5.15 23 11.5 23 23 17.85 23 11.5 17.85 0 11.5 0zM8 15.5c-2.21 0-4-1.79-4-4s1.79-4 4-4c1.1 0 2.1.45 2.83 1.17l-1.42 1.42A2 2 0 008 9.5c-1.1 0-2 .9-2 2s.9 2 2 2c.55 0 1.05-.22 1.41-.59l1.42 1.42A3.99 3.99 0 018 15.5zm9-2h-1v1h-1.5v-1H13v-1.5h1.5V10.5H16V9h1.5v1.5H19V12h-1.5v1.5H16v-1.5h1v-1.5z"/>
+    </svg>
+    <text x="38" y="66" text-anchor="middle" font-family="ui-monospace,monospace" font-size="10" fill="#a0a0a8">C#</text>
+  </g>
+
+  <g transform="translate(430,0)">
+    <rect width="76" height="74" rx="10" fill="#16161a" stroke="#25252b"/>
+    <svg x="15" y="9" width="46" height="40" viewBox="0 0 24 24" fill="#DEA584">
+      <path d="M11.57 1.15a.7.7 0 01.86 0l9.17 7.73a.7.7 0 01.23.53v5.18a.7.7 0 01-.23.53l-9.17 7.73a.7.7 0 01-.86 0L2.4 15.12a.7.7 0 01-.23-.53V9.41a.7.7 0 01.23-.53zM12 4.5a7.5 7.5 0 100 15 7.5 7.5 0 000-15zm0 3a4.5 4.5 0 110 9 4.5 4.5 0 010-9zm0 2.25a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z"/>
+    </svg>
+    <text x="38" y="66" text-anchor="middle" font-family="ui-monospace,monospace" font-size="10" fill="#a0a0a8">Rust</text>
+  </g>
+  </g>
+
+  <!-- row 2: web+tools -->
+  <text x="46" y="370" font-family="ui-monospace,monospace" font-size="10" letter-spacing="2" fill="#5c5c62">WEB &amp; TOOLS</text>
+  <g transform="translate(20,380)">
+  <g transform="translate(20,0)">
+    <rect width="76" height="74" rx="10" fill="#16161a" stroke="#25252b"/>
+    <svg x="15" y="9" width="46" height="40" viewBox="0 0 24 24" fill="#61DAFB">
+      <path d="M12 10.11a1.89 1.89 0 11-3.78.001A1.89 1.89 0 0112 10.11zm0-2.39C6.48 7.72 2 9.77 2 12s4.48 4.28 10 4.28S22 14.23 22 12c0-2.23-4.48-4.28-10-4.28zm0 7.06C7.39 14.78 4 13.53 4 12s3.39-2.78 8-2.78 8 1.25 8 2.78-3.39 2.78-8 2.78zm4.95-8.78c-2.76-4.78-6.9-7.26-8.95-5.67-2.05 1.59-1.38 5.9 1.38 9.68C7.14 14.17 5.08 14 4 13.45c-.37-.22.1.68 1.38 1.33C7.76 15.97 10.94 15 12.95 12c2.01-3 1.99-6.78 0-9zm-9.9 0c2.76-4.78 6.9-7.26 8.95-5.67 2.05 1.59 1.38 5.9-1.38 9.68C12.86 14.17 14.92 14 16 13.45c.37-.22-.1.68-1.38 1.33C12.24 15.97 9.06 15 7.05 12 5.04 9 5.06 5.22 7.05 2.44z"/>
+    </svg>
+    <text x="38" y="66" text-anchor="middle" font-family="ui-monospace,monospace" font-size="10" fill="#a0a0a8">React</text>
+  </g>
+
+  <g transform="translate(102,0)">
+    <rect width="76" height="74" rx="10" fill="#16161a" stroke="#25252b"/>
+    <svg x="15" y="9" width="46" height="40" viewBox="0 0 24 24" fill="#339933">
+      <path d="M12 1.85c-.27 0-.55.07-.78.2l-7.44 4.3c-.48.28-.78.8-.78 1.36v8.58c0 .56.3 1.08.78 1.36l1.95 1.12c.95.46 1.27.46 1.71.46 1.4 0 2.21-.85 2.21-2.33V7.44c0-.12-.1-.22-.22-.22h-.93c-.12 0-.22.1-.22.22v9.46c0 .66-.68 1.31-1.77.76L5.14 16.6a.16.16 0 01-.08-.14V7.88c0-.06.03-.11.08-.14l7.44-4.29a.16.16 0 01.16 0l7.44 4.29c.05.03.08.08.08.14v8.58c0 .06-.03.11-.08.14l-7.44 4.29a.16.16 0 01-.16 0l-1.9-1.12c-.06-.03-.13-.04-.19-.02-.53.3-.63.34-1.12.48-.12.04-.31.1.07.28l2.48 1.46c.24.14.5.21.78.21s.54-.07.78-.21l7.44-4.29c.48-.28.78-.8.78-1.36V7.71c0-.56-.3-1.08-.78-1.36L12.78 2.06c-.23-.14-.5-.21-.78-.21z"/>
+    </svg>
+    <text x="38" y="66" text-anchor="middle" font-family="ui-monospace,monospace" font-size="10" fill="#a0a0a8">Node.js</text>
+  </g>
+
+  <g transform="translate(184,0)">
+    <rect width="76" height="74" rx="10" fill="#16161a" stroke="#25252b"/>
+    <svg x="15" y="9" width="46" height="40" viewBox="0 0 24 24" fill="#E34F26">
+      <path d="M1.5 0h21l-1.91 21.56L11.98 24l-8.57-2.44zM17.1 4.41l-10.68-.001.22 2.62 10.12.002-.26 2.72H8.56l.24 2.57h6.18l-.37 3.52-2.91.8-2.96-.81-.19-2.11H6.12l.33 3.86L12 19.29l5.37-1.53z"/>
+    </svg>
+    <text x="38" y="66" text-anchor="middle" font-family="ui-monospace,monospace" font-size="10" fill="#a0a0a8">HTML5</text>
+  </g>
+
+  <g transform="translate(266,0)">
+    <rect width="76" height="74" rx="10" fill="#16161a" stroke="#25252b"/>
+    <svg x="15" y="9" width="46" height="40" viewBox="0 0 24 24" fill="#1572B6">
+      <path d="M1.5 0h21l-1.91 21.56L11.98 24l-8.57-2.44zM17.1 4.41l-10.68-.001.21 2.62 10.13.002-.26 2.72h-6.64l.24 2.57h6.18l-.37 3.52-2.91.8-2.96-.81-.19-2.11H9.22l.29 3.86L12 19.29l5.37-1.53z"/>
+    </svg>
+    <text x="38" y="66" text-anchor="middle" font-family="ui-monospace,monospace" font-size="10" fill="#a0a0a8">CSS3</text>
+  </g>
+
+  <g transform="translate(348,0)">
+    <rect width="76" height="74" rx="10" fill="#16161a" stroke="#25252b"/>
+    <svg x="15" y="9" width="46" height="40" viewBox="0 0 24 24" fill="#F05032">
+      <path d="M23.55 10.93L13.07.45c-.6-.6-1.58-.6-2.19 0L8.71 2.63l2.76 2.76c.64-.21 1.38-.07 1.89.44.52.52.66 1.26.44 1.9l2.66 2.66c.64-.22 1.39-.08 1.9.44.72.72.72 1.88 0 2.6-.72.72-1.88.72-2.6 0-.54-.54-.67-1.34-.4-2L12.86 9v6.52c.18.09.34.2.49.35.71.72.71 1.88 0 2.6-.72.72-1.89.72-2.61 0-.72-.72-.72-1.88 0-2.6.18-.18.39-.32.61-.41V8.84c-.22-.09-.42-.22-.61-.41-.54-.53-.67-1.32-.4-1.99L7.64 3.7.45 10.88c-.6.6-.6 1.58 0 2.19l10.48 10.48c.6.6 1.58.6 2.19 0l10.43-10.43c.6-.6.6-1.58 0-2.19"/>
+    </svg>
+    <text x="38" y="66" text-anchor="middle" font-family="ui-monospace,monospace" font-size="10" fill="#a0a0a8">Git</text>
+  </g>
+  </g>
+
+  <!-- ── FOCUS ──────────────────────────────────────────────────────── -->
+  <rect x="20" y="455" width="860" height="62" rx="14" fill="#121214" stroke="#26262b"/>
+  <text x="46" y="481" font-family="ui-monospace,monospace" font-size="11" letter-spacing="2.5" font-weight="600" fill="#f5820a">FOCUS</text>
+  <g font-family="ui-monospace,monospace" font-size="12" fill="#f0a344">
+    <rect x="46"  y="490" width="148" height="16" rx="8" fill="#160f06" stroke="#52360f"/>
+    <text x="62"  y="502">systems &amp; tooling</text>
+    <rect x="204" y="490" width="122" height="16" rx="8" fill="#160f06" stroke="#52360f"/>
+    <text x="220" y="502">game internals</text>
+    <rect x="336" y="490" width="108" height="16" rx="8" fill="#160f06" stroke="#52360f"/>
+    <text x="352" y="502">loaders &amp; UI</text>
+    <rect x="454" y="490" width="126" height="16" rx="8" fill="#160f06" stroke="#52360f"/>
+    <text x="470" y="502">reverse-curious</text>
+  </g>
+
+  <!-- ── ANIMES ─────────────────────────────────────────────────────── -->
+  <rect x="20" y="535" width="860" height="140" rx="14" fill="#121214" stroke="#26262b"/>
+  <text x="46" y="562" font-family="ui-monospace,monospace" font-size="11" letter-spacing="2.5" font-weight="600" fill="#f5820a">FAVORITE ANIMES</text>
+
+  <!-- Anime 1 – A Certain Magical Index -->
+  <g transform="translate(0,575)">
+    <clipPath id="c1b"><rect x="46" y="0" width="48" height="68" rx="6"/></clipPath>
+    <rect x="46" y="0" width="48" height="68" rx="6" fill="#1c1c1e" stroke="#2a2a30"/>
+    <image href="data:image/jpeg;base64,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" x="46" y="0" width="48" height="68" preserveAspectRatio="xMidYMid slice" clip-path="url(#c1b)"/>
+    <text x="106" y="16"  font-size="14" font-weight="600" fill="#e8e8ea">A Certain Magical Index</text>
+    <text x="106" y="36"  font-family="ui-monospace,monospace" font-size="10.5" fill="#7a7a80">2008<tspan dx="8" fill="#f5820a">&#9733; 81%</tspan><tspan dx="8" fill="#7a7a80">24 eps</tspan></text>
+    <text x="106" y="54"  font-size="11" fill="#6a6a70">Action &#183; Sci-Fi &#183; Magic &#183; Superpower</text>
+  </g>
+
+  <!-- Anime 2 – Neon Genesis Evangelion -->
+  <g transform="translate(424,575)">
+    <clipPath id="c2b"><rect x="46" y="0" width="48" height="68" rx="6"/></clipPath>
+    <rect x="46" y="0" width="48" height="68" rx="6" fill="#1c1c1e" stroke="#2a2a30"/>
+    <image href="data:image/jpeg;base64,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" x="46" y="0" width="48" height="68" preserveAspectRatio="xMidYMid slice" clip-path="url(#c2b)"/>
+    <text x="106" y="16"  font-size="14" font-weight="600" fill="#e8e8ea">Neon Genesis Evangelion</text>
+    <text x="106" y="36"  font-family="ui-monospace,monospace" font-size="10.5" fill="#7a7a80">1995<tspan dx="8" fill="#f5820a">&#9733; 83%</tspan><tspan dx="8" fill="#7a7a80">26 eps</tspan></text>
+    <text x="106" y="54"  font-size="11" fill="#6a6a70">Mecha &#183; Psychological &#183; Drama</text>
+  </g>
+
+  <!-- ── FOOTER ─────────────────────────────────────────────────────── -->
+  <text x="450" y="692" font-family="ui-monospace,monospace" font-size="11" fill="#3a3a40" text-anchor="middle" letter-spacing="1">github.com/Masgod &#183; built after hours</text>
+</svg>
